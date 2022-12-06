@@ -1,0 +1,70 @@
+body{
+    background-color: #8e2607;
+}
+
+.header{
+    height:200px;
+    width: 100%;
+    /* background:black; */
+}
+.logo{
+color:#dd6046;
+margin-left:400px;
+font-size:50px;
+padding-top: 80px;
+margin-right: 200px;
+text-transform: uppercase;
+font-weight: 500;
+font-family:inherit
+}
+.box{
+    margin-left:720px;
+    width:300px;
+    padding: 50px;
+    position:absolute;
+    background:#ffbfc4;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    margin-top:200px;}
+
+.box input[type="url"]{
+border:0;
+background: none;
+display :block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #3498db;
+padding:14px 10px;
+width:200px;
+outline:none;
+border-radius:20px;
+transition: 0.24s;
+}
+.box input[type="submit"]{
+    border:0;
+    background: none;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border:2px solid #f4bf04;
+    padding:14px 40px;
+    outline:none;
+    color:#dd6046;
+    border-radius: 20px;
+    transition:0.25s;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover{
+    background: #f4bf04;
+}
+.box input[type="url"]:focus{
+    width:280px;
+    border-color: #f4bf04;
+}
+.cards{
+    display:grid;
+    grid-template-rows: (auto-fit,minmax(200px,1fr));
+    gap:20px;
+    background-image:url("https://www.google.com/imgres?imgurl=https%3A%2F%2Feditor.analyticsvidhya.com%2Fuploads%2F76811wp7461543-fake-news-wallpapers.jpg&imgrefurl=https%3A%2F%2Fwww.analyticsvidhya.com%2Fblog%2F2021%2F06%2Fbuild-your-own-fake-news-classifier-with-nlp%2F&tbnid=dvzP6U3Eq4VeVM&vet=12ahUKEwjFkr-F_uL7AhUzhNgFHW0vAK0QMygRegUIARC6AQ..i&docid=v8iDcv2m1OYU-M&w=1920&h=1080&q=fake%20news%20detection&ved=2ahUKEwjFkr-F_uL7AhUzhNgFHW0vAK0QMygRegUIARC6AQ");
+
+}
