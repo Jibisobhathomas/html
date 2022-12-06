@@ -1,0 +1,16 @@
+button{
+    color:red;
+}
+#para1{color:blueviolet;}
+#para2{color:bisque;}
+p.white{color:aquamarine;}
+div{padding-left: 40px;
+padding-right: 40px;
+padding-top: 40px;
+background-color: hotpink;
+border: 5px;
+border-color: aquamarine;}
+div.outer_box{width:900px; height:900px }
+div.box1{width:300; height:300; background:brown;}
+div.box2{width:300; height:300;}
+div.box3{widthz:300; height:300; background:green;}
